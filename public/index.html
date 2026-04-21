@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QASIM CRUD App</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>✨ QASIM CRUD APP</h1>
+
+<div class="main">
+
+  <!-- Employee Card -->
+  <div class="card">
+    <h2>👨‍💼 Employee</h2>
+
+    <input id="empName" placeholder="Name">
+    <input id="empRole" placeholder="Role">
+
+    <button class="add-btn" onclick="addEmployee()">Add</button>
+
+    <ul id="empList"></ul>
+  </div>
+
+  <!-- Product Card -->
+  <div class="card">
+    <h2>📦 Product</h2>
+
+    <input id="prodName" placeholder="Product Name">
+    <input id="prodPrice" placeholder="Price">
+
+    <button class="add-btn" onclick="addProduct()">Add</button>
+
+    <ul id="prodList"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
